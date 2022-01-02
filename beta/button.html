@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="button.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:300,400,700,700i|Roboto:300i,400,400i,700&display=swap&subset=cyrillic-ext" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:300i,400,700&amp;subset=cyrillic-ext" rel="stylesheet">
+</head>
+<body>
+    <div id="gray" onclick="show('none')"></div>
+    <header>
+        <div class="header__logo">
+            <a class="header__logo" href="index.html">QazTour</a>
+        </div>
+        <nav>
+            <div class="links">
+                <a href="jobby.html" class="a1">Main</a>
+                <a href="jobby.html" class="a1">Application</a>
+                <a href="jobby.html" class="a1">lorem</a>
+            </div>
+        </nav>
+        </header>
+    <main>
+        <div class="regbuttondiv">
+            <h1 class="text">Acceptance of applications</h1>
+            <p class="text"> <br> Please enter your details below and you will automatically be placed in the queue. <br>
+                
+             Please be patient</p>
+            <button onclick="show('block')" class="regButton">Take the queue</button>
+        </div>
+        <div id="window">
+            <img src="i/close.png" class="close" onclick="show('none')">
+        <div class="form">
+        <h2>Application</h2>
+        <form action="index.html" name="f1">
+        <input type="text" placeholder="Name" name="name1" class="input">
+        <input type="text" placeholder="Surname" name="name2" class="input">
+        <input type="email" placeholder="Email" name="email1" class="input">
+        <input type="email" placeholder="Email confirmation" name="email2" class="input">
+        <input type="password" placeholder="Password" name="pass1" class="input">
+        <input type="password" placeholder="Password confirmation" name="pass2" class="input">
+        <input type='tel' placeholder="Mobile phone" name="tel" class="input">
+        <input type="submit" value="Confirm" name="sab" class="input"> By clicking "Confirm", you confirm
+        that you have read and agree to our <a href = >Terms of Use and Privacy Policy.</a>
+    </form>
+        </div>
+        </div>
+    
+        <div class="yellow"></div>
+        <div class="green"></div>
+    </main>
+   
+
+    <script>
+        //Функция показа
+            function show(state)
+            {
+            document.getElementById('window').style.display = state;	
+            document.getElementById('gray').style.display = state; 		
+            }	
+    </script>
+</body>
+</html>

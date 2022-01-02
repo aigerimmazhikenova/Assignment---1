@@ -1,0 +1,116 @@
+html{
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+    background-color:rgb(245, 213, 110);
+    height: 96px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 165px;
+    background: url(images/bgintro.png);
+    opacity: 3px;
+}
+#header_logo{
+    font-size: 24px;
+	color:#fff;
+	font-weight: 700;
+    text-decoration: none;
+}
+.links{
+    width: 400px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.a1{
+    height: 25px;
+    color:white;
+    font-size: 20px;
+    text-decoration: none;
+    transition: 0.3s;
+    
+}
+.a1:hover{
+    color: #fcdf52;
+}
+nav{
+    padding-right: 50px;
+}
+body{
+    margin: 0;
+    
+}
+
+main{
+    margin: 0;
+    background: url(images/bg-device.jpg) ;
+    height: 920px;
+}
+
+.astana1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.divastana1{
+    display: flex;
+    align-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+
+main{
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.as1{
+    font-size: 15px;
+	color:#999999;
+    position: absolute;
+    top: 200px;
+    right: 60px;
+}
+.astanaab{
+    position: absolute;
+    left: 120px;
+    top: 200px;
+}
+
+.as2{
+    position: absolute;
+    top: 600px;
+    left: 120px;
+    font-size: 15px;
+	color:#999999;
+}
+.astanaab2{
+    position: absolute;
+    top: 600px;
+    left :800px;
+}
+.line{
+    border: solid 3px rgb(243, 174, 45);
+    width: 400px;
+    height: 1px;
+    position: absolute;
+    top: 540px;
+    background-color:rgb(243, 174, 45) ;
+}
+
+.telegram{
+    border-radius: 40px;
+    
+    opacity: 1;
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    bottom: 15px;
+    left: 1320px;
+    background:url(images/pngegg.png);
+
+}
