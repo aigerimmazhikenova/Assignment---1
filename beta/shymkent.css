@@ -101,16 +101,3 @@ main{
     top: 540px;
     background-color:rgb(243, 174, 45) ;
 }
-
-.telegram{
-    border-radius: 40px;
-    
-    opacity: 1;
-    position: fixed;
-    width: 40px;
-    height: 40px;
-    bottom: 15px;
-    left: 1320px;
-    background:url(images/pngegg.png);
-
-}
